@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4E953DBB-B594-4361-AEDB-6DC918C121E3}</ProjectGuid>
+    <ProjectGuid>{0F24AAD4-64B4-4EFC-9AC6-DDE32543211F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WinLib</RootNamespace>
@@ -94,6 +94,7 @@
     <Compile Include="WinAPI\Newdev.cs" />
     <Compile Include="WinAPI\Ntdll.cs" />
     <Compile Include="WinAPI\Psapi.cs" />
+    <Compile Include="WinAPI\Rpcdce.cs" />
     <Compile Include="WinAPI\Setupapi.cs" />
     <Compile Include="WinAPI\Shell32.cs" />
     <Compile Include="WinAPI\User32.cs" />
